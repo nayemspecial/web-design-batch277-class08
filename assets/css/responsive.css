@@ -1,0 +1,134 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .header-container {
+        width: 100%;
+        font-size: 12px;
+    }
+    
+    nav{
+        display: none;
+    }
+    nav li a {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    .header-right a{
+        padding: 6px 10px;
+        margin-right: 6px;
+    }
+
+    .slider-section {
+        background: url(../img/slider-bg.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 400px;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .slider-left{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .slider-left h2 {
+        font-size: 30px;
+        color: #ddd;
+        margin-right: 10px;
+    }
+    
+    .slider-left p {
+        font-size: 14px;
+        color: #ddd;
+    }
+    .slider-right{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .slider-right img {
+        width: 250px;
+    }
+
+
+    .service-area {
+        background-color: #273746;
+        padding: 40px 0;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .all-services {
+        display: block;
+        width: 80%;
+        margin: 30px auto;
+    }
+    
+    .single-service {
+        width: 80%;
+        height: 200px;
+        background-color: #34495E;
+        margin: 0 20px;
+        padding-top: 50px;
+        margin-bottom:20px;
+    }
+
+    
+    
+    .footer-container {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        width: 90%;
+    }
+    .footer-col {
+        width: 90%;
+        margin: 0 20px;
+        margin-bottom: 50px;
+    }
+    
+    
+    .footer-col ul li a {
+        color: #fff;
+        font-size: 14px;
+        text-decoration: none;
+        line-height: 1.2;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+
+    nav li a {
+        font-size: 14px;
+        padding: 6px 8px;
+    }
+    .header-right a{
+        padding: 6px 10px;
+        margin-right: 6px;
+        font-size: 12px;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {...}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {...}
